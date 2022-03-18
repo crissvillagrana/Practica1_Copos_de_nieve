@@ -57,7 +57,7 @@ class Lienzo(este:MainActivity) : View(este){//class
         for(cop in copos){
             cop.mover()
             cop.pintar(c)
-            este.setTitle("${cop.contador}")
+            este.setTitle("LADM - Cristian Villagrana")
             if(cop.contador>100){
                 cop.acelerar()
                 cop.pintar(c)
